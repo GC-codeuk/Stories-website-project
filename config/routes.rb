@@ -55,7 +55,10 @@ Rails.application.routes.draw do
   #   end
   root 'pages#home'
   get '/about' => 'pages#about'
+<<<<<<< HEAD
   get '/new'=> 'signups#new'
   get '/thanks' => 'pages#thanks'
   resources :signups
+=======
+>>>>>>> origin/master
 end
