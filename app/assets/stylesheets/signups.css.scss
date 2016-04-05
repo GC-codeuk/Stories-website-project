@@ -1,0 +1,52 @@
+// Place all the styles related to the Signups controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.new-signup {
+  background: url('https://db.tt/4EfBihJs') center center no-repeat;
+  background-size: cover;
+  padding: 250px 50px;
+}
+
+.new-signup h1 {
+  text-align: center;
+  color: #fff;
+  text-shadow: 0 2px 3px rgba(0,0,0,0.4);
+  font-size: 50px;
+}
+
+.row {
+  margin: auto;
+  padding: 30px 0;
+  max-width: 300px;
+  text-align: left;
+}
+
+.field {
+  padding: 0 0 10px 0;
+}
+
+#signup_email, #signup_firstname {
+  width: 100%;
+  height: 40px;
+  border: 0px solid;
+  padding: 0px 10px;
+  background-color: rgba(255,255,255,0.8);
+  font-size: 20px;
+}
+
+label {
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+}
+
+.new-signup .btn {
+  background-color: #ccc;
+  color: #333;
+}
+
+.new-signup .btn:hover {
+  background-color: #E6E6E6;
+  color: #333;
+}
